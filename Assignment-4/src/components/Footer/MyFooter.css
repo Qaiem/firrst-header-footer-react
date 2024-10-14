@@ -1,0 +1,48 @@
+.footer {
+  position: fixed; /* Fixes the footer to the bottom of the viewport */
+  bottom: 0; /* Positions the footer at the bottom */
+  left: 0; /* Aligns the footer to the left edge */
+  right: 0; /* Aligns the footer to the right edge */
+  background-color: #343a40; /* Dark background */
+  color: white; /* Text color */
+  padding: 20px;
+  text-align: center; /* Centers text and links */
+  z-index: 1000; /* Ensures the footer is on top of other content */
+  display: flex; /* Enables flexbox */
+  justify-content: space-between; /* Spaces items between left and right */
+  align-items: center; /* Aligns items vertically in the center */
+}
+
+.line1 {
+  display: flex;
+  flex-direction: column; /* Stack the title and subtitle vertically */
+}
+
+.line1 h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.line1 h2 {
+  margin: 10px 0 20px;
+}
+
+.line2 p {
+  margin: 10px 0;
+}
+
+.follow-us {
+  display: flex; /* Enables flexbox for the follow us section */
+  justify-content: space-around; /* Spaces out the links evenly */
+  width: 200px; /* Adjust the width as needed */
+}
+
+.follow-us a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color change effect */
+}
+
+.follow-us a:hover {
+  color: #f0a500; /* Change link color on hover */
+}
